@@ -6,10 +6,9 @@ interface LogoProps {
 export default function PythonLogo({ width, height }: LogoProps) {
   return (
     <svg
-      class="p-0"
       xmlns="http://www.w3.org/2000/svg"
-      width={width ?? "6em"}
-      height={height ?? "6em"}
+      width={width ?? "4em"}
+      height={height ?? "4em"}
       fill="none"
       viewBox="0 0 64 64"
     >
