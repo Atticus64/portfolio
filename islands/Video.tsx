@@ -58,10 +58,6 @@ export const VideoSection = ({ video, name }: Props) => {
 		if (!e.target)
 			return;
 
-		if (isNaN(target.duration))
-			return;
-
-
 		progress.value = ((target.currentTime / target.duration) * 100);
 	};
 
