@@ -23,17 +23,6 @@ export function Projects() {
 				</li>
 				<li>
 					<ProjectCard
-						description="Aplicacion para generar resumenes con Inteligencia Artificial"
-						href="https://draft-ia.vercel.app/app"
-						code="https://github.com/Atticus64/draft.ia"
-						title="Draft.ia"
-						preview="/draftia.png"
-						class="b-10"
-						id="draftia"
-					/>
-				</li>
-				<li>
-					<ProjectCard
 						description="Aplicación de linea de comandos para personalizar la terminal de Windows"
 						code="https://github.com/Atticus64/juice"
 						title="Juice CLI"
